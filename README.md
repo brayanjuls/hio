@@ -2,6 +2,7 @@
 This library provides elegant functions to manage hdfs filesystem and cloud object stores.
 ## Setup
 
+## Functions Documentation
 ### Configuration
 for authentication, you can use environment variables or provide an xml config file:
 * Config File
@@ -152,3 +153,24 @@ or to automatically parse to string
 val wd = hio.Path("s3a://bucket_name/path/to/folders")
 hio.read.string(wd / "file_1.txt")
 ```
+
+## How to contribute 
+We welcome contributions to this project checkout our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## How to build the project
+
+### pre-requisites
+* SBT 1.8.2
+* Java 8
+* Scala 2.12.12
+
+### Building
+
+To compile, run 
+`sbt compile`
+
+To test, run
+`sbt test`
+
+To generate artifacts, run
+`sbt package`

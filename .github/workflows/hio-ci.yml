@@ -1,4 +1,4 @@
-name: Jodie CI
+name: HIO CI
 on:
   push:
     branches: [ "main" ]
