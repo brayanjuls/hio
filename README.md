@@ -155,7 +155,7 @@ hio.read.string(wd / "file_1.txt")
 ```
 
 ## How to contribute 
-We welcome contributions to this project checkout our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+We welcome contributions to this project, to contribute checkout our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## How to build the project
 
