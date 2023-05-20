@@ -1,6 +1,9 @@
 # HIO
 This library provides elegant functions to manage hdfs filesystem and cloud object stores.
 ## Setup
+```scala
+libraryDependencies += "com.brayanjules" %% "hio" % "0.0.1"
+```
 
 ## Functions Documentation
 ### Configuration
